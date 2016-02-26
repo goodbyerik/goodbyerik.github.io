@@ -3,8 +3,8 @@ Lugar donde Kinley pone a prueba todos sus conocimientos web
 
 
 Si tienes problemas de subir a GITHUB
-  "git pull --rebase origin master"
-  "git push origin master"
+"git pull --rebase origin master"
+"git push origin master"
 
 **Valido hasta el 2016**
 
