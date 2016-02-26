@@ -7,6 +7,8 @@ body {
 }
 
 h1 {
+	color: DarkOliveGreen;
+	font-family: Palatino, ' Palatino Linotype',serif;
 	font-size: 32px;
 }
 
@@ -23,7 +25,8 @@ h2 {
 	padding: 250px 0;
 	margin: 30px;
 	text-shadow: 0 2px #000000;
-	font-family: 'Trebuchet MS', 'Helvetica';
+	font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+	color: rgb(46,105,163);
 }
 
 
@@ -40,7 +43,7 @@ p {
 
 #footer {
 	color: DarkSlateGray;
-	font-size: 16px;
+	font-size: 0.75rem;
 }
 
 
