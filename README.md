@@ -8,5 +8,4 @@ Si tienes problemas de subir a GITHUB
 
 **Valido hasta el 2016**
 
-Estas invitado a leer este libro
-<a href="http://chimera.labs.oreilly.com/books/1230000000561/pr01.html#_goals_of_this_book"></a>
+Estas invitado a leer este <a href="http://chimera.labs.oreilly.com/books/1230000000561/pr01.html#_goals_of_this_book">libro</a>
