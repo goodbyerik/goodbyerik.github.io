@@ -2,6 +2,11 @@ Color set
 #5861DA
 #374550
 
+Imagenes;
+https://upload.wikimedia.org/wikipedia/en/6/64/KylieXLogo-K.png
+
+
+Tips;
 border: sets the outline of an HTML page element, like a picture frame that contains the element.
 
 padding: sets the amount of space between an element's content and its border.

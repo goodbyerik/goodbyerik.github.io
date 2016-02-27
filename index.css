@@ -39,7 +39,7 @@ body {
 .encabezado a {
   color: #00FFAA;
   text-decoration: none;
-  text-shadow: 0 2px #000000;
+  text-shadow: 0 1px #000000;
 }
 
 .encabezado a:visited {
@@ -60,6 +60,7 @@ body {
   text-align: center;
   padding: 30px;
   color: #ffffff;
+  font-family: 'Josefin Slab',sans-serif;
   font-size: 2em;	
 }
 
@@ -138,7 +139,8 @@ nav li {
 	flex-wrap: wrap;
 	margin: 0px;
 	display: inline;
-	font-size: 12pt;
+	font-size: 14pt;
+	font-family: 'Josefin Slab',sans-serif;
 	padding: 0 30px;
   /*espacio entre textos*/
 }
@@ -216,6 +218,7 @@ nav a:active {
 	padding: 10px;
 	background-color: #374550;
 	color: #ffffff;
+	font-family: 'Josefin Slab', sans-serif;
 	font-size: 1.5rem;
 }
 
