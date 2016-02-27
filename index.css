@@ -155,9 +155,10 @@ nav {
 }
 
 nav li {
+	display:flex;
+	flex-wrap: wrap;
 	margin: 0px;
 	display: inline;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	padding: 0 30px;
   /*espacio entre textos*/
@@ -177,20 +178,30 @@ nav ul {
   margin-right: 30px;
   padding: 8px 18px;
 /*padding es para los bordes (alto)x(ancho)*/
-  border: 1px solid #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  border: 2px solid #ffffff;
 }
 
 .contact-btn a:active {
   position: relative;
+  background-color: #5861DA;
   top: 2px;
-  bottom: 2px;
 }
 
 nav a {
   height: 60px;
-  line-height: 60px;
+  line-height: 100px;
   color: #ffffff;
   text-decoration: none;
+}
+
+nav a:hover {
+	color:chocolate;
+}
+
+nav a:active {
+	color: yellow;
 }
 
 
