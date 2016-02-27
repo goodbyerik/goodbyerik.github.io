@@ -127,27 +127,6 @@ h2 {
 #mainwrapper .box:hover .fade-caption {
     opacity: 1;
 }
-/*Cuadros que se mueven*/
-
-.hero {
-	background-image: url('http://www.fondosypantallas.com/wp-content/uploads/2008/12/ph-116401.jpg');
-	background-position: center top;
-	background-size: cover;
-	padding: 250px;
-	margin-right:30px;
-	margin-left:30px;
-	text-shadow: 0 2px #000000;
-	font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
-	color: rgb(46,150,163);
-	border: 5px solid #FFF;
-}
-
-.hero a {
-	color: #00FFAA;
-	font-size: 24px;
-	text-decoration: none;
-}
-
 
 /* FOOTER NAVIGATION */
 nav {
@@ -197,12 +176,39 @@ nav a {
 }
 
 nav a:hover {
+	font-weight: bold;
 	color:chocolate;
 }
 
 nav a:active {
 	color: yellow;
 }
+
+/*Cuadros que se mueven*/
+
+.hero {
+	background-image: url('http://www.fondosypantallas.com/wp-content/uploads/2008/12/ph-116401.jpg');
+	background-position: center top;
+	background-size: cover;
+	padding: 250px;
+	margin-right:30px;
+	margin-left:30px;
+	text-shadow: 0 1px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+	color: rgb(46,150,163);
+	border: 5px solid #FFF;
+}
+.hero p {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.hero a {
+	color: #00FFAA;
+	font-size: 40px;
+	text-decoration: none;
+}
+
 
 
 /* Final de barra de navegacion*/
