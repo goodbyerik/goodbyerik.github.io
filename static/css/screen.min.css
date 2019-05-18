@@ -907,12 +907,12 @@ a:hover {
   transition: all 0.5s;
 }
 .process__step-icon.is-active {
-  border-color: #446cb3;
+  border-color: #ff9e40;
 }
 .process__step-icon.is-active:before {
-  text-shadow: -1px -1px 0 #446cb3, 0 -1px 0 #446cb3, 1px -1px 0 #446cb3,
-    1px 0 0 #446cb3, 1px 1px 0 #446cb3, 0 1px 0 #446cb3, -1px 1px 0 #446cb3,
-    -1px 0 0 #446cb3;
+  text-shadow: -1px -1px 0 #ff9e40, 0 -1px 0 #ff9e40, 1px -1px 0 #ff9e40,
+    1px 0 0 #ff9e40, 1px 1px 0 #ff9e40, 0 1px 0 #ff9e40, -1px 1px 0 #ff9e40,
+    -1px 0 0 #ff9e40;
 }
 .process__step-info {
   position: absolute;
@@ -982,13 +982,13 @@ a:hover {
 }
 .projects-wrap:before {
   top: 0;
-  -webkit-box-shadow: 0 0 2px 1px #111;
-  box-shadow: 0 0 2px 1px #111;
+  -webkit-box-shadow: 0 0 2px 1px #fff;
+  box-shadow: 0 0 2px 1px #fff;
 }
 .projects-wrap:after {
   bottom: 0;
-  -webkit-box-shadow: 0 0 2px 1px #111;
-  box-shadow: 0 0 2px 1px #111;
+  -webkit-box-shadow: 0 0 2px 1px #fff;
+  box-shadow: 0 0 2px 1px #fff;
 }
 .projects {
   float: left;
@@ -1031,7 +1031,7 @@ a:hover {
   text-align: center;
   white-space: nowrap;
   background-color: #fff;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #ff9e404d;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity 0.5s;
@@ -1049,7 +1049,7 @@ a:hover {
   display: inline-block;
   width: 90%;
   font-size: 25px;
-  color: #446cb3;
+  color: #111;
   vertical-align: middle;
   white-space: normal;
   border-bottom: none;
@@ -1232,7 +1232,6 @@ a:hover {
   width: 25px;
   height: 25px;
   border: 0;
-  vertical-align: top;
 }
 .contact-info__vcard a {
   display: inline-block;
