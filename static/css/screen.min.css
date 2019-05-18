@@ -1382,13 +1382,13 @@ a:hover {
   display: block;
   font-size: 60px;
   line-height: 40px;
-  color: #fff;
+  color: #ffffffb3;;
   -webkit-transition: color 0.5s;
   -o-transition: color 0.5s;
   transition: color 0.5s;
 }
 .main-footer__gotop:hover:before {
-  color: #111;
+  color: #fff;
 }
 @media screen and (max-width: 1200px) {
   h1 {
