@@ -33,15 +33,9 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+    js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
     fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-    // FB.CustomerChat.showDialog();
-    FB.CustomerChat.update({  
-    logged_in_greeting: 'Hello There!',
-    logged_out_greeting: 'Log in to Chat with Us',  
-    ref: 'coupon_15',
-    });
     </script>
 </head>
 
